@@ -5,42 +5,81 @@ $font-scale--default: 1.12;
 $font-scale--m: 1.2;
 $font-scale--l: 1.25;
 
-h1,
-h2,
-h3,
+h1 {
+  font-family: 'Roboto' Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0px;
+}
+
+h2 {
+  font-family: 'Roboto' Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #F3890C;
+  margin-top: 6px;
+}
+
+h3 {
+  font-family: 'Roboto' Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-top: 6px;
+
+}
 h4,
-h5,
+h5 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 26px;
+  color: #FFFFFF;
+  background-color: #F3890C;
+  margin-left: 5rem;
+}
+
 h6 {
   margin-top: 1.2em;
   margin-bottom: 0.4em;
   padding: 0;
 }
 
-h1 {
-  font-size: 1rem * $font-scale--default * $font-scale--default;
-  margin-bottom: 3em;
+// h1 {
+//   font-size: 1rem * $font-scale--default * $font-scale--default;
+//   // margin-bottom: 3em;
+//
+//   @include media(m) {
+//     font-size: 1rem * $font-scale--m * $font-scale--m;
+//   }
+//
+//   @include media(l) {
+//     font-size: 1rem * $font-scale--l * $font-scale--l;
+//   }
+// }
 
-  @include media(m) {
-    font-size: 1rem * $font-scale--m * $font-scale--m;
-  }
-
-  @include media(l) {
-    font-size: 1rem * $font-scale--l * $font-scale--l;
-  }
-}
-
-h2 {
-  font-size: 1rem * $font-scale--default;
-
-  @include media(m) {
-    font-size: 1rem * $font-scale--m;
-  }
-
-  @include media(l) {
-    font-size: 1rem * $font-scale--l;
-  }
-}
-
-h3 {
-  font-size: 1rem;
-}
+// h2 {
+//   font-size: 1rem * $font-scale--default;
+//
+//   @include media(m) {
+//     font-size: 1rem * $font-scale--m;
+//   }
+//
+//   @include media(l) {
+//     font-size: 1rem * $font-scale--l;
+//   }
+// }
+//
+// h3 {
+//   font-size: 1rem;
+// }

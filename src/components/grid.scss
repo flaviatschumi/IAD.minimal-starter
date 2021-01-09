@@ -3,6 +3,8 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 3%;
+  grid-row-gap: 3%;
+
 
   // visualisierung der Columns
   @include debug() {
@@ -80,11 +82,23 @@ div[class^="card-"] {
 .card-2-4 {
   grid-column: span 2;
   grid-row: span 4;
-  background-color: grey;
+  // background-color: grey;
 }
 
 .card-4-2 {
   grid-column: span 4;
   grid-row: span 2;
-  background-color: grey;
+  // background-color: grey;
+}
+
+.card-6-4 {
+  grid-column: span 6;
+  grid-row: span 4;
+  // background-color: grey;
+}
+
+.card-12-2 {
+  grid-column: span 12;
+  grid-row: span 2;
+  // background-color: grey;
 }
