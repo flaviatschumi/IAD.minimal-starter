@@ -85,21 +85,32 @@ div[class^="card-"] {
   // background-color: grey;
 }
 
-.card-4-2 {
-  grid-column: span 4;
-  grid-row: span 2;
+
+.card-3-1 {
+  grid-column: span 3;
+  grid-row: span 1;
   // background-color: grey;
 }
 
-.card-6-4 {
+
+.card-4-1 {
+  grid-column: span 4;
+  grid-row: span 1;
+  // background-color: grey;
+}
+
+
+
+
+.card-6-1 {
   grid-column: span 6;
-  grid-row: span 4;
-  padding-top: 15rem;
+  grid-row: span 1;
+  padding-top: 10rem;
   // background-color: grey;
 }
 
 .card-12-2 {
   grid-column: span 12;
-  grid-row: span 2;
+  grid-row: span 1;
   // background-color: grey;
 }
