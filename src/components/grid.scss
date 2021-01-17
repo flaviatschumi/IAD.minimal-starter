@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 3%;
-  grid-row-gap: 3%;
+  grid-row-gap: 1%;
 
 
   // visualisierung der Columns
@@ -79,6 +79,13 @@ div[class^="card-"] {
   height: 20rem;
 }
 
+.card-2-1 {
+  grid-column: span 2;
+  grid-row: span 6;
+  // background-color: grey;
+}
+
+
 .card-2-4 {
   grid-column: span 2;
   grid-row: span 4;
@@ -90,6 +97,12 @@ div[class^="card-"] {
   grid-column: span 3;
   grid-row: span 1;
   // background-color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+grid-column: span 12;
+ }
 }
 
 
@@ -105,12 +118,36 @@ div[class^="card-"] {
 .card-6-1 {
   grid-column: span 6;
   grid-row: span 1;
-  padding-top: 10rem;
+  // padding-top: 10rem;
   // background-color: grey;
 }
+
+.card-6-1--abstand {
+  margin-top: 10rem;
+}
+
+
+.card-6-1--quer{
+  display: flex;
+  justify-content: space-between;
+}
+.quertext{
+  width: 75%;
+}
+
+.querbild{
+  width: 20%;
+}
+
 
 .card-12-2 {
   grid-column: span 12;
   grid-row: span 1;
   // background-color: grey;
+}
+
+
+.Abstand {
+  margin-top: 10rem;
+
 }

@@ -4,4 +4,19 @@ img {
   display: block;
   width: 100%;
   max-width: 100%;
+  margin-bottom: 12px;
+}
+
+.share {
+  width: 15px;
+height: 15px;
+float: right;
+margin-right: 8px;
+justify-content: flex-end;
+margin-top: 5px;
+}
+
+.links {
+float: left;
+margin-right: 10px;
 }
