@@ -58,6 +58,20 @@ div[class^="card-"] {
   }
 }
 
+
+.column-4resultat {
+  grid-column: span 12;
+  background-color: #F2F2F2;
+  padding: 15px;
+  @include media(m) {
+    grid-column: span 4;
+    background-color: #F2F2F2;
+    padding: 15px;
+  }
+}
+
+
+
 .column-6 {
   grid-column: span 12;
   @include media(m) {
