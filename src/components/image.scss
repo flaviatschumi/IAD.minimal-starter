@@ -9,18 +9,11 @@ img {
 
 
 
-.hide {
-  @media screen and (min-width: 401px) and (max-width: 1024px) {
-    #my-content {
-      display: block;
-    }
-    /* show it on big screen */
-  }
-  @media screen and (min-width: 0px) and (max-width: 400px) {
-    #my-content {
-      display: none;
-    }
-    /* hide it elsewhere */
+.hide-on-mobile {
+  display: none;
+
+  @include media(m) {
+    display: block;
   }
 }
 
