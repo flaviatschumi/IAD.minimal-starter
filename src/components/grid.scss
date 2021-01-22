@@ -212,10 +212,10 @@ div[class^="card-"] {
 
 .column-12abstand {
   grid-column: span 12;
-  margin-top: 10rem;
+  margin-top: 8rem;
   @include media(m) {
     grid-column: span 12;
-    margin-top: 10rem;
+    margin-top: 8rem;
   }
 }
 
