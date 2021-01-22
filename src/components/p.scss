@@ -14,6 +14,18 @@ p {
   }
 }
 
+.impressum {
+  font-size: 0.7rem;
+}
+
+.autor {
+  font-size: 14px;
+  font-style: italic;
+  color: grey;
+  margin-top: 8px;
+  margin-bottom: 50px;
+}
+
 li {
   list-style: none;
   display: inline-block;
@@ -51,12 +63,12 @@ li {
   line-height: 50px;
   float: right;
 }
-span{
-  font-size: 25px;
-  font-family: cursive;
-  color: white;
-  animation: blink 1s linear infinite;
-}
+// span{
+//   font-size: 25px;
+//   font-family: cursive;
+//   color: white;
+//   animation: blink 1s linear infinite;
+// }
 @keyframes blink{
   0%{opacity: 0;}
   50%{opacity: .5;}

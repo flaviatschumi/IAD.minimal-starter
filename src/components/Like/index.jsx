@@ -7,7 +7,7 @@ const Like = ({ start }) => {
   return (
     <div className="like">
       <button className="like__btn" onClick={() => setCount(count + 1)}>
-        {count}
+        <span className="like__count">{count}</span>
         <img className="share" src="./assets/images/heart.svg" alt="heart.svg" />
 
       </button>
