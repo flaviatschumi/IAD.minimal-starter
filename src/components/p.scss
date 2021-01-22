@@ -1,10 +1,17 @@
 // Paragraph Handling
 
 p {
-  font-size: 0.8rem;
+
+  font-size: 0.95rem;
   margin-top: 0.2rem;
   margin-bottom: 0.3rem;
-  // margin-block-end: 2rem;
+
+  @include media(m) {
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+    // margin-block-end: 2rem;
+  }
 }
 
 li {
@@ -28,7 +35,9 @@ li {
 .resultate{
   font-size: 0.8rem;
   // text-align: center;
-  margin-top: 7px;
+  margin-top: 5px;
+
+
 }
 
 

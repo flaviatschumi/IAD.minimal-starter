@@ -6,6 +6,17 @@ $font-scale--m: 1.2;
 $font-scale--l: 1.25;
 
 h1 {
+
+  font-family: 'Roboto' Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0px;
+  margin-top: 0.3rem;
+
+  @include media(m) {
+
   font-family: 'Roboto' Medium;
   font-style: normal;
   font-weight: 500;
@@ -13,10 +24,23 @@ h1 {
   line-height: 28px;
   margin: 0px;
   margin-top: 0.3rem;
-
+}
 }
 
 h2 {
+
+
+  font-family: 'Roboto' Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #F3890C;
+
+  @include media(m) {
+
   font-family: 'Roboto' Medium;
   font-style: normal;
   font-weight: 500;
@@ -27,6 +51,7 @@ h2 {
   color: #F3890C;
   // margin-top: 6px;
   // margin-top: 0.5rem;
+}
 }
 
 h3 {

@@ -31,8 +31,13 @@ body {
 
 
 footer {
-
-margin-top: 200px;
+  position: relative;
+  font-size: 16px;
+  padding: 1% 5%;
+  text-align: center;
+  background-color: #F3890C;
+  color: white;
+  margin-top: 200px;
 
   @include media(m) {
 
@@ -40,9 +45,10 @@ margin-top: 200px;
   position: relative;
   font-size: 16px;
   padding: 1% 5%;
-  text-align: center;
+  text-align: left;
   background-color: #F3890C;
   color: white;
   margin-top: 2px;
+
   }
 }

@@ -1,9 +1,23 @@
 // 12er Column-Grid
-.grid-12 {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-column-gap: 3%;
-  grid-row-gap: 1%;
+// .grid-12 {
+//   display: grid;
+//   grid-template-columns: repeat(12, 1fr);
+//   grid-column-gap: 3%;
+//   grid-row-gap: 1%;
+
+
+  .grid-12 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 3%;
+    grid-row-gap: 0.2%;
+
+    @include media(m) {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-column-gap: 3%;
+      grid-row-gap: 1%;
+    }
 
 
   // visualisierung der Columns
@@ -70,10 +84,11 @@ div[class^="card-"] {
   content: "";
   width: 2px;
   background-color: lightgrey;
-  height: 130%;
+  height: 117%;
   position: absolute;
-  top: 0;
-  right: -3.5%;
+  top: -9%;
+  bottom: 10%;
+  right: -2%;
   display: block;
 
   @include media(m) {
@@ -102,13 +117,19 @@ div[class^="card-"] {
 .line-test {
   height: 2px;
   background-color: lightgrey;
+}
 
+.line-neu {
+  height: 2px;
+  background-color: lightgrey;
 }
 
 .column-4 {
   grid-column: span 12;
   @include media(m) {
     grid-column: span 4;
+    position: relative;
+
   }
 }
 
@@ -117,6 +138,8 @@ div[class^="card-"] {
   grid-column: span 12;
   background-color: #F2F2F2;
   padding: 15px;
+  margin-bottom: 20px;
+
   @include media(m) {
     grid-column: span 4;
     background-color: #F2F2F2;
