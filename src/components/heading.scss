@@ -14,6 +14,7 @@ h1 {
   line-height: 24px;
   margin: 0px;
   margin-top: 0.3rem;
+  hyphens: none;
 
   @include media(m) {
 
@@ -24,6 +25,8 @@ h1 {
   line-height: 28px;
   margin: 0px;
   margin-top: 0.3rem;
+  hyphens: none;
+
 }
 }
 
@@ -90,9 +93,26 @@ h7 {
   font-weight: bold;
   padding: 0;
   color: #F3890C;
+  @include media(m) {
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 0;
+    color: #F3890C;
+  }
 }
 
+
 h8 {
+  font-family: 'Roboto' Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  margin: 0px;
+  margin-top: 0.3rem;
+  hyphens: none;
+
+@include media(m){
   font-family: 'Roboto' Medium;
   font-style: normal;
   font-weight: 500;
@@ -100,6 +120,8 @@ h8 {
   line-height: 25px;
   margin: 0px;
   margin-top: 0.3rem;
+  hyphens: none;
+}
 }
 
 h9 {
