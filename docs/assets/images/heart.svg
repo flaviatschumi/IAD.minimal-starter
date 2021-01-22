@@ -4,10 +4,13 @@
 	 id="Ebene_1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
 	 style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DE7D0B;}
+</style>
 <g transform="translate(0,-952.36218)">
-	<path d="M8.3,953.6c-2.1,0-4.3,0.9-5.9,2.6c-3.2,3.5-3.2,9.1,0,12.5l13,14.1c0.3,0.3,0.8,0.4,1.1,0l0,0c4.3-4.7,8.7-9.3,13-14.1
-		c3.2-3.5,3.2-9.1,0-12.5c-3.2-3.5-8.5-3.5-11.8,0l-1.8,1.9l-1.8-2C12.6,954.5,10.5,953.6,8.3,953.6z M8.3,955.2
-		c1.7,0,3.4,0.7,4.7,2.1l2.4,2.6c0.3,0.3,0.8,0.4,1.1,0l0,0l2.4-2.6c2.6-2.8,6.8-2.8,9.4,0s2.6,7.5,0,10.3
+	<path class="st0" d="M8.3,953.6c-2.1,0-4.3,0.9-5.9,2.6c-3.2,3.5-3.2,9.1,0,12.5l13,14.1c0.3,0.3,0.8,0.4,1.1,0l0,0
+		c4.3-4.7,8.7-9.3,13-14.1c3.2-3.5,3.2-9.1,0-12.5c-3.2-3.5-8.5-3.5-11.8,0l-1.8,1.9l-1.8-2C12.6,954.5,10.5,953.6,8.3,953.6z
+		 M8.3,955.2c1.7,0,3.4,0.7,4.7,2.1l2.4,2.6c0.3,0.3,0.8,0.4,1.1,0l0,0l2.4-2.6c2.6-2.8,6.8-2.8,9.4,0s2.6,7.5,0,10.3
 		c-4.1,4.5-8.3,8.9-12.4,13.4L3.6,967.7c-2.6-2.9-2.6-7.5,0-10.3C4.9,955.9,6.7,955.2,8.3,955.2z"/>
 </g>
 </svg>

@@ -122,6 +122,7 @@ div[class^="card-"] {
 .line-neu {
   height: 2px;
   background-color: lightgrey;
+  margin-top: 20px;
 }
 
 .column-4 {
@@ -151,6 +152,18 @@ div[class^="card-"] {
   }
 }
 
+.kolumne {
+  grid-column: span 12;
+  background-color: rgb(242, 242, 242);
+  padding: 15px;
+      border-radius: 8px;
+  @include media(m) {
+    grid-column: span 4;
+    background-color: rgb(242, 242, 242);
+    padding: 15px;
+        border-radius: 8px;
+  }
+}
 
 
 .column-6 {
@@ -169,16 +182,7 @@ div[class^="card-"] {
   }
 }
 
-.column-6head {
-  grid-column: span 12;
-  background-color: rgb(242, 242, 242);
-  padding: 15px;
-  @include media(m) {
-    grid-column: span 6;
-    background-color: rgb(242, 242, 242);
-    padding: 15px;
-  }
-}
+
 
 
 .column-5to12 {
@@ -212,7 +216,7 @@ div[class^="card-"] {
 
 .column-12abstand {
   grid-column: span 12;
-  margin-top: 8rem;
+  margin-top: 9rem;
   @include media(m) {
     grid-column: span 12;
     margin-top: 8rem;

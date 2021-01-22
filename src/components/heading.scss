@@ -41,6 +41,8 @@ h2 {
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #F3890C;
+  hyphens: none;
+
 
   @include media(m) {
 
@@ -52,6 +54,8 @@ h2 {
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #F3890C;
+  hyphens: none;
+
   // margin-top: 6px;
   // margin-top: 0.5rem;
 }
@@ -89,7 +93,7 @@ h6 {
 }
 
 h7 {
-  margin-top: 1.2em;
+  margin-top: 30px;
   font-weight: bold;
   padding: 0;
   color: #F3890C;
